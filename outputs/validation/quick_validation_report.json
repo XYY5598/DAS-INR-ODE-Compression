@@ -1,0 +1,16 @@
+{
+  "location_theme": "海洋",
+  "title_text": "快速验证 — {{title_text}}",
+  "metrics": {
+    "mse": 0.09006679803133011,
+    "rmse": 0.30011130940257835,
+    "psnr_db": 11.342904236015208,
+    "peak_error": 1.1689190864562988,
+    "compression_ratio": 17.643004824259133,
+    "original_bytes": 25600.0,
+    "compressed_bytes": 1451.0,
+    "location_theme": "海洋",
+    "title_text": "快速验证 — {{title_text}}",
+    "packet_compression_ratio": 17.643004824259133
+  }
+}

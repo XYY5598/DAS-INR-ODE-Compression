@@ -1,0 +1,22 @@
+{
+  "mse": 0.0024769746232777834,
+  "rmse": 0.049769213609196034,
+  "psnr_db": 26.060784427588874,
+  "peak_error": 0.3024439215660095,
+  "compression_ratio": 146.28571428571428,
+  "original_bytes": 256000,
+  "compressed_bytes": 1750.0,
+  "packet_bytes": 1750,
+  "inr_model_bytes": 1586180,
+  "decoder_model_bytes": 534280,
+  "model_bytes_total": 2120460,
+  "first_task_total_bytes": 2122210,
+  "subsequent_task_bytes": 1750,
+  "ratio_first_task": 0.12062896697310822,
+  "ratio_subsequent": 146.28571428571428,
+  "ratio_packet_only": 146.28571428571428,
+  "meets_50x_subsequent": true,
+  "shared_weights_amortized": true,
+  "meets_psnr_40db": false,
+  "meets_patent_target": false
+}

@@ -1,0 +1,21 @@
+{
+  "title_text": "Cook Inlet KKFLS — 海洋",
+  "location_theme": "海洋",
+  "metrics": {
+    "mse": 0.17244793474674225,
+    "rmse": 0.41526850921631686,
+    "psnr_db": 7.633420024184484,
+    "peak_error": 1.1849215030670166,
+    "compression_ratio": 176.79558011049724,
+    "original_bytes": 256000.0,
+    "compressed_bytes": 1448.0,
+    "location_theme": "海洋",
+    "title_text": "Cook Inlet KKFLS — 海洋",
+    "packet_compression_ratio": 176.79558011049724,
+    "source_file": "D:\\browserdownload\\DAS4Whales-main\\DAS-reconstruction-main\\data\\downloaded_sample\\11715354_KKFLS.h5",
+    "shape": [
+      128,
+      500
+    ]
+  }
+}

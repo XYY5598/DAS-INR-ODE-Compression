@@ -1,0 +1,21 @@
+数据: 11715354_TERRA.h5, shape=(128, 500), ch_start=0
+配置: epochs=400, latent_steps=3000, band_mix=0.08, n_units=512
+
+  INR epoch   1/400, loss=0.200700
+  INR epoch  20/400, loss=0.000727, psnr=31.72 dB
+  INR epoch 100/400, loss=0.000537, psnr=33.48 dB
+  INR epoch 200/400, loss=0.000277, psnr=36.50 dB
+  INR epoch 300/400, loss=0.000220, psnr=37.81 dB
+  INR epoch 380/400, loss=0.000113, psnr=40.11 dB
+  INR epoch 400/400, loss=0.000259, psnr=36.70 dB
+  恢复 best checkpoint: epoch=380, psnr=40.11 dB
+
+==================================================
+PSNR:     40.30 dB  (目标 ≥40 dB)
+压缩比:   112.7x
+传输语义: 潜向量传输
+INR epoch: 400
+耗时:     9.5 min
+40 dB 达标: 是
+输出:     das_inr_ode_compression/outputs/terra_11715354
+==================================================

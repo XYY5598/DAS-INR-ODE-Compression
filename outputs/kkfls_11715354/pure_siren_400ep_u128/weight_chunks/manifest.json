@@ -1,0 +1,47 @@
+{
+  "mode": "pure_siren",
+  "total_bytes": 1337931,
+  "chunk_bytes": 262144,
+  "num_chunks": 6,
+  "chunks": [
+    {
+      "idx": 0,
+      "bytes": 262144,
+      "file": "chunk_0000.bin"
+    },
+    {
+      "idx": 1,
+      "bytes": 262144,
+      "file": "chunk_0001.bin"
+    },
+    {
+      "idx": 2,
+      "bytes": 262144,
+      "file": "chunk_0002.bin"
+    },
+    {
+      "idx": 3,
+      "bytes": 262144,
+      "file": "chunk_0003.bin"
+    },
+    {
+      "idx": 4,
+      "bytes": 262144,
+      "file": "chunk_0004.bin"
+    },
+    {
+      "idx": 5,
+      "bytes": 27211,
+      "file": "chunk_0005.bin"
+    }
+  ],
+  "meta": {
+    "n_channels": 128,
+    "n_samples": 500,
+    "n_layers": 20,
+    "n_units": 128,
+    "omega": 30.0,
+    "mode": "pure_siren",
+    "source": "/root/DAS4Whales-main/DAS-reconstruction-main/data/downloaded_sample/11715354_KKFLS.h5"
+  }
+}

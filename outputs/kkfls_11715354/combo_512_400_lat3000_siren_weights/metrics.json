@@ -1,0 +1,20 @@
+{
+  "mse": 0.0002267725794808939,
+  "rmse": 0.015058970067069457,
+  "psnr_db": 36.44409459920581,
+  "peak_error": 0.08906260877847672,
+  "compression_ratio": 0.011590292224770175,
+  "original_bytes": 256000.0,
+  "compressed_bytes": 22087450.0,
+  "meets_psnr_40db": false,
+  "train_time_sec": 564.0443415641785,
+  "transmit_mode": "siren_weights",
+  "transmit_note": "分块传输 INR 权重 + latent（压缩语义不同于潜向量编码）",
+  "train_stats": {
+    "inr_epochs_run": 400,
+    "train_psnr_db": 36.44409459920581,
+    "inr_final_loss": 0.00031762566140969284,
+    "latent_steps": 3000,
+    "n_units": 512
+  }
+}

@@ -1,0 +1,73 @@
+# Jupyter notebooks
+.ipynb_checkpoints
+DAS4Whales_ExampleNotebook.ipynb
+
+# Development jupyter notebooks
+dev.ipynb
+*.ipynb
+
+# macOS system file
+.DS_Store
+
+# Image files
+# *.png
+
+# PyCharm IDE specific files
+.idea
+
+# Python virtual environment
+venv/
+.venv/
+
+# Build artifacts
+build/
+
+# Python package metadata
+*.egg-info
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# HDF5 data files
+*.h5
+
+# Data folder 
+data/
+
+# Local archive (multi-GB raw data / old trees; GitHub 100MB file limit)
+_archive/
+
+# Temporary files
+*.tmp
+
+# IDE-specific project files
+.project
+.classpath
+
+# Intellij IDEA
+.idea/
+
+# Visual Studio Code    
+.vscode/
+
+main_dharriscollab.py
+
+# pdf files
+
+*.pdf
+
+# out and figs folders
+out/
+figs/
+
+# Animation files
+*.mp4
+
+# Denoised data files
+denoised_data/
+# Evaluation figures 
+evaluation/
+
+# GMT files
+*.conf

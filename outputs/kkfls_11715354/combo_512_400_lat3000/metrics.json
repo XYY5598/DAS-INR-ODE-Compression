@@ -1,0 +1,20 @@
+{
+  "mse": 0.00013999563816469163,
+  "rmse": 0.011831975243580069,
+  "psnr_db": 38.538854953968745,
+  "peak_error": 0.09911110252141953,
+  "compression_ratio": 112.72567151034787,
+  "original_bytes": 256000.0,
+  "compressed_bytes": 2271.0,
+  "meets_psnr_40db": false,
+  "train_time_sec": 564.3778605461121,
+  "transmit_mode": "latent",
+  "transmit_note": "潜向量传输",
+  "train_stats": {
+    "inr_epochs_run": 400,
+    "train_psnr_db": 38.538854953968745,
+    "inr_final_loss": 0.00017834108439274132,
+    "latent_steps": 3000,
+    "n_units": 512
+  }
+}

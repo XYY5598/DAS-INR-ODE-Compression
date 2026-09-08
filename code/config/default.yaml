@@ -1,0 +1,88 @@
+# 分布式光纤应变感知数据压缩 — 默认配置
+# 可替换占位符: {{location_theme}}, {{title_text}}
+
+location_theme: "{{location_theme}}"
+title_text: "{{title_text}}"
+
+# 数据参数
+n_channels: 256
+n_samples: 500
+sample_rate_hz: 50.0
+fiber_length_km: 10.0
+
+# 潜向量维度 (64-256, 与光纤长度相关: d_z = clamp(alpha * L_km, 64, 256))
+latent_dim: 128
+
+# INR 编码器
+inr:
+  activation: siren          # siren | relu
+  n_layers: 5
+  n_units: 256
+  coord_encoding: rff        # rff | positional
+  rff_features: 128
+  rff_scale: 10.0
+  siren_omega: 30.0
+  lr: 1.0e-4
+  epochs: 50
+  batch_size: 4096
+  reg_lambda: 1.0e-5
+
+# 物理预处理
+preprocessing:
+  dwt_wavelet: db4
+  dwt_level: 4
+  lpc_order: 10
+  degradation_thresholds:
+    seismic: 1.0e-6
+    background: 1.0e-4
+    noise: 1.0e-3
+
+# Neural ODE 解码器
+ode:
+  hidden_dim: 64
+  map_layers: 2
+  dynamics_layers: 3
+  solver: dopri5           # dopri5 | euler
+  rtol: 1.0e-5
+  atol: 1.0e-7
+  max_steps: 1000
+  euler_step: 0.02
+  pinn_weight: 0.5
+  pinn_mode: true
+  wave_speed: 1500.0
+  lipschitz_max: 10.0
+
+# 长时间监测控制
+monitoring:
+  snapshot_interval_sec: 600
+  anomaly_energy_factor: 5.0
+  packet_interval_sec: 1.0
+  fast_response_euler_step: 0.001
+
+# 场景预设 (由 location_theme 选择)
+scenarios:
+  海洋:
+    pinn_mode: true
+    activation: siren
+    degradation_thresholds:
+      seismic: 1.0e-6
+      background: 1.0e-4
+      noise: 1.0e-3
+  陆地基础设施:
+    pinn_mode: true
+    activation: relu
+    pde: heat_diffusion
+    degradation_thresholds:
+      seismic: 1.0e-5
+      background: 1.0e-4
+      noise: 1.0e-3
+  地质活动监测:
+    pinn_mode: true
+    activation: siren
+    pde: dual
+    degradation_thresholds:
+      seismic: 1.0e-6
+      background: 1.0e-4
+      noise: 1.0e-3
+
+output_dir: ./outputs

@@ -1,0 +1,56 @@
+# 改进版配置 — 对齐 DAS-reconstruction-main SIREN 参考 + 专利训练规模
+
+location_theme: "海洋"
+title_text: "Cook Inlet KKFLS 改进版"
+
+n_channels: 128
+n_samples: 500
+sample_rate_hz: 50.0
+fiber_length_km: 10.0
+latent_dim: 128
+
+# 统一时域编解码 (time | coeff)
+decode_domain: time
+decode_mode: hybrid          # inr | ode | hybrid
+hybrid_alpha: 0.6             # INR 权重（INR 拟合更强时调高）
+
+inr:
+  activation: siren
+  n_layers: 20                 # 参考 DAS-reconstruction-main
+  n_units: 256                 # 300ep + 256u 为当前默认冲刺档
+  coord_encoding: rff
+  rff_features: 128
+  rff_scale: 20.0
+  siren_omega: 30.0
+  lr: 1.0e-4
+  epochs: 300
+  batch_size: 8192
+  reg_lambda: 1.0e-5
+  patience: 40
+  latent_steps: 2000           # 可在实验中进一步提升到 3000
+  latent_lr: 5.0e-3
+
+preprocessing:
+  dwt_wavelet: db4
+  dwt_level: 4
+  lpc_order: 10
+
+ode:
+  hidden_dim: 128
+  head_units: 128
+  map_layers: 2
+  dynamics_layers: 3
+  use_spatiotemporal_head: true
+  solver: euler
+  epochs: 120
+  lr: 1.0e-3
+  pinn_weight: 0.05
+  pinn_mode: true
+  seismic_weight: 8.0
+  wave_speed: 1500.0
+
+monitoring:
+  snapshot_interval_sec: 600
+  anomaly_energy_factor: 5.0
+
+output_dir: ./outputs/improved

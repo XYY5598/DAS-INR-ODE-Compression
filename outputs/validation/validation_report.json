@@ -1,0 +1,42 @@
+{
+  "title_text": "DAS Multi-theme",
+  "location_theme": "海洋",
+  "metrics": {
+    "海洋": {
+      "mse": 0.08525592088699341,
+      "rmse": 0.2919861655746611,
+      "psnr_db": 12.053902796742724,
+      "peak_error": 1.28253972530365,
+      "compression_ratio": 36.594663278271916,
+      "original_bytes": 57600.0,
+      "compressed_bytes": 1574.0,
+      "location_theme": "海洋",
+      "title_text": "DAS压缩验证 — 海洋",
+      "packet_compression_ratio": 36.594663278271916
+    },
+    "陆地基础设施": {
+      "mse": 0.0428750216960907,
+      "rmse": 0.20706284479860385,
+      "psnr_db": 8.725663208841388,
+      "peak_error": 0.6058873534202576,
+      "compression_ratio": 36.0450563204005,
+      "original_bytes": 57600.0,
+      "compressed_bytes": 1598.0,
+      "location_theme": "陆地基础设施",
+      "title_text": "DAS压缩验证 — 陆地基础设施",
+      "packet_compression_ratio": 36.0450563204005
+    },
+    "地质活动监测": {
+      "mse": 0.07793482393026352,
+      "rmse": 0.2791680926077755,
+      "psnr_db": 12.186615592004895,
+      "peak_error": 1.2323002815246582,
+      "compression_ratio": 36.0450563204005,
+      "original_bytes": 57600.0,
+      "compressed_bytes": 1598.0,
+      "location_theme": "地质活动监测",
+      "title_text": "DAS压缩验证 — 地质活动监测",
+      "packet_compression_ratio": 36.0450563204005
+    }
+  }
+}

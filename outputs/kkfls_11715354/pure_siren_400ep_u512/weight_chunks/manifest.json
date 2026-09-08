@@ -1,0 +1,422 @@
+{
+  "mode": "pure_siren",
+  "total_bytes": 21035723,
+  "chunk_bytes": 262144,
+  "num_chunks": 81,
+  "chunks": [
+    {
+      "idx": 0,
+      "bytes": 262144,
+      "file": "chunk_0000.bin"
+    },
+    {
+      "idx": 1,
+      "bytes": 262144,
+      "file": "chunk_0001.bin"
+    },
+    {
+      "idx": 2,
+      "bytes": 262144,
+      "file": "chunk_0002.bin"
+    },
+    {
+      "idx": 3,
+      "bytes": 262144,
+      "file": "chunk_0003.bin"
+    },
+    {
+      "idx": 4,
+      "bytes": 262144,
+      "file": "chunk_0004.bin"
+    },
+    {
+      "idx": 5,
+      "bytes": 262144,
+      "file": "chunk_0005.bin"
+    },
+    {
+      "idx": 6,
+      "bytes": 262144,
+      "file": "chunk_0006.bin"
+    },
+    {
+      "idx": 7,
+      "bytes": 262144,
+      "file": "chunk_0007.bin"
+    },
+    {
+      "idx": 8,
+      "bytes": 262144,
+      "file": "chunk_0008.bin"
+    },
+    {
+      "idx": 9,
+      "bytes": 262144,
+      "file": "chunk_0009.bin"
+    },
+    {
+      "idx": 10,
+      "bytes": 262144,
+      "file": "chunk_0010.bin"
+    },
+    {
+      "idx": 11,
+      "bytes": 262144,
+      "file": "chunk_0011.bin"
+    },
+    {
+      "idx": 12,
+      "bytes": 262144,
+      "file": "chunk_0012.bin"
+    },
+    {
+      "idx": 13,
+      "bytes": 262144,
+      "file": "chunk_0013.bin"
+    },
+    {
+      "idx": 14,
+      "bytes": 262144,
+      "file": "chunk_0014.bin"
+    },
+    {
+      "idx": 15,
+      "bytes": 262144,
+      "file": "chunk_0015.bin"
+    },
+    {
+      "idx": 16,
+      "bytes": 262144,
+      "file": "chunk_0016.bin"
+    },
+    {
+      "idx": 17,
+      "bytes": 262144,
+      "file": "chunk_0017.bin"
+    },
+    {
+      "idx": 18,
+      "bytes": 262144,
+      "file": "chunk_0018.bin"
+    },
+    {
+      "idx": 19,
+      "bytes": 262144,
+      "file": "chunk_0019.bin"
+    },
+    {
+      "idx": 20,
+      "bytes": 262144,
+      "file": "chunk_0020.bin"
+    },
+    {
+      "idx": 21,
+      "bytes": 262144,
+      "file": "chunk_0021.bin"
+    },
+    {
+      "idx": 22,
+      "bytes": 262144,
+      "file": "chunk_0022.bin"
+    },
+    {
+      "idx": 23,
+      "bytes": 262144,
+      "file": "chunk_0023.bin"
+    },
+    {
+      "idx": 24,
+      "bytes": 262144,
+      "file": "chunk_0024.bin"
+    },
+    {
+      "idx": 25,
+      "bytes": 262144,
+      "file": "chunk_0025.bin"
+    },
+    {
+      "idx": 26,
+      "bytes": 262144,
+      "file": "chunk_0026.bin"
+    },
+    {
+      "idx": 27,
+      "bytes": 262144,
+      "file": "chunk_0027.bin"
+    },
+    {
+      "idx": 28,
+      "bytes": 262144,
+      "file": "chunk_0028.bin"
+    },
+    {
+      "idx": 29,
+      "bytes": 262144,
+      "file": "chunk_0029.bin"
+    },
+    {
+      "idx": 30,
+      "bytes": 262144,
+      "file": "chunk_0030.bin"
+    },
+    {
+      "idx": 31,
+      "bytes": 262144,
+      "file": "chunk_0031.bin"
+    },
+    {
+      "idx": 32,
+      "bytes": 262144,
+      "file": "chunk_0032.bin"
+    },
+    {
+      "idx": 33,
+      "bytes": 262144,
+      "file": "chunk_0033.bin"
+    },
+    {
+      "idx": 34,
+      "bytes": 262144,
+      "file": "chunk_0034.bin"
+    },
+    {
+      "idx": 35,
+      "bytes": 262144,
+      "file": "chunk_0035.bin"
+    },
+    {
+      "idx": 36,
+      "bytes": 262144,
+      "file": "chunk_0036.bin"
+    },
+    {
+      "idx": 37,
+      "bytes": 262144,
+      "file": "chunk_0037.bin"
+    },
+    {
+      "idx": 38,
+      "bytes": 262144,
+      "file": "chunk_0038.bin"
+    },
+    {
+      "idx": 39,
+      "bytes": 262144,
+      "file": "chunk_0039.bin"
+    },
+    {
+      "idx": 40,
+      "bytes": 262144,
+      "file": "chunk_0040.bin"
+    },
+    {
+      "idx": 41,
+      "bytes": 262144,
+      "file": "chunk_0041.bin"
+    },
+    {
+      "idx": 42,
+      "bytes": 262144,
+      "file": "chunk_0042.bin"
+    },
+    {
+      "idx": 43,
+      "bytes": 262144,
+      "file": "chunk_0043.bin"
+    },
+    {
+      "idx": 44,
+      "bytes": 262144,
+      "file": "chunk_0044.bin"
+    },
+    {
+      "idx": 45,
+      "bytes": 262144,
+      "file": "chunk_0045.bin"
+    },
+    {
+      "idx": 46,
+      "bytes": 262144,
+      "file": "chunk_0046.bin"
+    },
+    {
+      "idx": 47,
+      "bytes": 262144,
+      "file": "chunk_0047.bin"
+    },
+    {
+      "idx": 48,
+      "bytes": 262144,
+      "file": "chunk_0048.bin"
+    },
+    {
+      "idx": 49,
+      "bytes": 262144,
+      "file": "chunk_0049.bin"
+    },
+    {
+      "idx": 50,
+      "bytes": 262144,
+      "file": "chunk_0050.bin"
+    },
+    {
+      "idx": 51,
+      "bytes": 262144,
+      "file": "chunk_0051.bin"
+    },
+    {
+      "idx": 52,
+      "bytes": 262144,
+      "file": "chunk_0052.bin"
+    },
+    {
+      "idx": 53,
+      "bytes": 262144,
+      "file": "chunk_0053.bin"
+    },
+    {
+      "idx": 54,
+      "bytes": 262144,
+      "file": "chunk_0054.bin"
+    },
+    {
+      "idx": 55,
+      "bytes": 262144,
+      "file": "chunk_0055.bin"
+    },
+    {
+      "idx": 56,
+      "bytes": 262144,
+      "file": "chunk_0056.bin"
+    },
+    {
+      "idx": 57,
+      "bytes": 262144,
+      "file": "chunk_0057.bin"
+    },
+    {
+      "idx": 58,
+      "bytes": 262144,
+      "file": "chunk_0058.bin"
+    },
+    {
+      "idx": 59,
+      "bytes": 262144,
+      "file": "chunk_0059.bin"
+    },
+    {
+      "idx": 60,
+      "bytes": 262144,
+      "file": "chunk_0060.bin"
+    },
+    {
+      "idx": 61,
+      "bytes": 262144,
+      "file": "chunk_0061.bin"
+    },
+    {
+      "idx": 62,
+      "bytes": 262144,
+      "file": "chunk_0062.bin"
+    },
+    {
+      "idx": 63,
+      "bytes": 262144,
+      "file": "chunk_0063.bin"
+    },
+    {
+      "idx": 64,
+      "bytes": 262144,
+      "file": "chunk_0064.bin"
+    },
+    {
+      "idx": 65,
+      "bytes": 262144,
+      "file": "chunk_0065.bin"
+    },
+    {
+      "idx": 66,
+      "bytes": 262144,
+      "file": "chunk_0066.bin"
+    },
+    {
+      "idx": 67,
+      "bytes": 262144,
+      "file": "chunk_0067.bin"
+    },
+    {
+      "idx": 68,
+      "bytes": 262144,
+      "file": "chunk_0068.bin"
+    },
+    {
+      "idx": 69,
+      "bytes": 262144,
+      "file": "chunk_0069.bin"
+    },
+    {
+      "idx": 70,
+      "bytes": 262144,
+      "file": "chunk_0070.bin"
+    },
+    {
+      "idx": 71,
+      "bytes": 262144,
+      "file": "chunk_0071.bin"
+    },
+    {
+      "idx": 72,
+      "bytes": 262144,
+      "file": "chunk_0072.bin"
+    },
+    {
+      "idx": 73,
+      "bytes": 262144,
+      "file": "chunk_0073.bin"
+    },
+    {
+      "idx": 74,
+      "bytes": 262144,
+      "file": "chunk_0074.bin"
+    },
+    {
+      "idx": 75,
+      "bytes": 262144,
+      "file": "chunk_0075.bin"
+    },
+    {
+      "idx": 76,
+      "bytes": 262144,
+      "file": "chunk_0076.bin"
+    },
+    {
+      "idx": 77,
+      "bytes": 262144,
+      "file": "chunk_0077.bin"
+    },
+    {
+      "idx": 78,
+      "bytes": 262144,
+      "file": "chunk_0078.bin"
+    },
+    {
+      "idx": 79,
+      "bytes": 262144,
+      "file": "chunk_0079.bin"
+    },
+    {
+      "idx": 80,
+      "bytes": 64203,
+      "file": "chunk_0080.bin"
+    }
+  ],
+  "meta": {
+    "n_channels": 128,
+    "n_samples": 500,
+    "n_layers": 20,
+    "n_units": 512,
+    "omega": 30.0,
+    "mode": "pure_siren",
+    "source": "/root/DAS4Whales-main/DAS-reconstruction-main/data/downloaded_sample/11715354_KKFLS.h5"
+  }
+}

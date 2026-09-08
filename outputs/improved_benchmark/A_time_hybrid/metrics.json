@@ -1,0 +1,31 @@
+{
+  "mse": 0.024556098505854607,
+  "rmse": 0.156703856065684,
+  "psnr_db": 16.0984063313246,
+  "peak_error": 0.6605282425880432,
+  "compression_ratio": 146.03536794067313,
+  "original_bytes": 256000,
+  "compressed_bytes": 1753.0,
+  "packet_bytes": 1753,
+  "inr_model_bytes": 925700,
+  "decoder_model_bytes": 534280,
+  "model_bytes_total": 1459980,
+  "first_task_total_bytes": 1461733,
+  "subsequent_task_bytes": 1753,
+  "ratio_first_task": 0.17513458340203034,
+  "ratio_subsequent": 146.03536794067313,
+  "ratio_packet_only": 146.03536794067313,
+  "meets_50x_subsequent": true,
+  "shared_weights_amortized": true,
+  "meets_psnr_40db": false,
+  "meets_patent_target": false,
+  "experiment": "A_time_hybrid",
+  "train_time_sec": 317.02661299705505,
+  "train_stats": {
+    "train_psnr_db": 16.0984063313246,
+    "inr_epochs_run": 60,
+    "ode_epochs_run": 40,
+    "domain": "time",
+    "decode_mode": "hybrid"
+  }
+}
